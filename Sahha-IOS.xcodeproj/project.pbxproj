@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */; };
+		AA8A45DB2C64A530000995CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45DA2C64A530000995CF /* ContentView.swift */; };
+		AA8A45DD2C64A531000995CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DC2C64A531000995CF /* Assets.xcassets */; };
+		AA8A45E02C64A531000995CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */; };
+		AA8A45EA2C64A531000995CF /* Sahha_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45E92C64A531000995CF /* Sahha_IOSTests.swift */; };
+		AA8A45F42C64A531000995CF /* Sahha_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45F32C64A531000995CF /* Sahha_IOSUITests.swift */; };
+		AA8A45F62C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45F52C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA8A45E62C64A531000995CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8A45CD2C64A530000995CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8A45D42C64A530000995CF;
+			remoteInfo = "Sahha-IOS";
+		};
+		AA8A45F02C64A531000995CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8A45CD2C64A530000995CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA8A45D42C64A530000995CF;
+			remoteInfo = "Sahha-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA8A45D52C64A530000995CF /* Sahha-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sahha-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSApp.swift; sourceTree = "<group>"; };
+		AA8A45DA2C64A530000995CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA8A45DC2C64A531000995CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA8A45E52C64A531000995CF /* Sahha-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sahha-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8A45E92C64A531000995CF /* Sahha_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSTests.swift; sourceTree = "<group>"; };
+		AA8A45EF2C64A531000995CF /* Sahha-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sahha-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8A45F32C64A531000995CF /* Sahha_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSUITests.swift; sourceTree = "<group>"; };
+		AA8A45F52C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8A45D22C64A530000995CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45E22C64A531000995CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45EC2C64A531000995CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8A45CC2C64A530000995CF = {
+			isa = PBXGroup;
+			children = (
+				AA8A45D72C64A530000995CF /* Sahha-IOS */,
+				AA8A45E82C64A531000995CF /* Sahha-IOSTests */,
+				AA8A45F22C64A531000995CF /* Sahha-IOSUITests */,
+				AA8A45D62C64A530000995CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8A45D62C64A530000995CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45D52C64A530000995CF /* Sahha-IOS.app */,
+				AA8A45E52C64A531000995CF /* Sahha-IOSTests.xctest */,
+				AA8A45EF2C64A531000995CF /* Sahha-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8A45D72C64A530000995CF /* Sahha-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */,
+				AA8A45DA2C64A530000995CF /* ContentView.swift */,
+				AA8A45DC2C64A531000995CF /* Assets.xcassets */,
+				AA8A45DE2C64A531000995CF /* Preview Content */,
+			);
+			path = "Sahha-IOS";
+			sourceTree = "<group>";
+		};
+		AA8A45DE2C64A531000995CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA8A45E82C64A531000995CF /* Sahha-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45E92C64A531000995CF /* Sahha_IOSTests.swift */,
+			);
+			path = "Sahha-IOSTests";
+			sourceTree = "<group>";
+		};
+		AA8A45F22C64A531000995CF /* Sahha-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45F32C64A531000995CF /* Sahha_IOSUITests.swift */,
+				AA8A45F52C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift */,
+			);
+			path = "Sahha-IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8A45D42C64A530000995CF /* Sahha-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8A45F92C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOS" */;
+			buildPhases = (
+				AA8A45D12C64A530000995CF /* Sources */,
+				AA8A45D22C64A530000995CF /* Frameworks */,
+				AA8A45D32C64A530000995CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sahha-IOS";
+			productName = "Sahha-IOS";
+			productReference = AA8A45D52C64A530000995CF /* Sahha-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA8A45E42C64A531000995CF /* Sahha-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8A45FC2C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOSTests" */;
+			buildPhases = (
+				AA8A45E12C64A531000995CF /* Sources */,
+				AA8A45E22C64A531000995CF /* Frameworks */,
+				AA8A45E32C64A531000995CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8A45E72C64A531000995CF /* PBXTargetDependency */,
+			);
+			name = "Sahha-IOSTests";
+			productName = "Sahha-IOSTests";
+			productReference = AA8A45E52C64A531000995CF /* Sahha-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA8A45EE2C64A531000995CF /* Sahha-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8A45FF2C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOSUITests" */;
+			buildPhases = (
+				AA8A45EB2C64A531000995CF /* Sources */,
+				AA8A45EC2C64A531000995CF /* Frameworks */,
+				AA8A45ED2C64A531000995CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA8A45F12C64A531000995CF /* PBXTargetDependency */,
+			);
+			name = "Sahha-IOSUITests";
+			productName = "Sahha-IOSUITests";
+			productReference = AA8A45EF2C64A531000995CF /* Sahha-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8A45CD2C64A530000995CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AA8A45D42C64A530000995CF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AA8A45E42C64A531000995CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AA8A45D42C64A530000995CF;
+					};
+					AA8A45EE2C64A531000995CF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AA8A45D42C64A530000995CF;
+					};
+				};
+			};
+			buildConfigurationList = AA8A45D02C64A530000995CF /* Build configuration list for PBXProject "Sahha-IOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8A45CC2C64A530000995CF;
+			productRefGroup = AA8A45D62C64A530000995CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8A45D42C64A530000995CF /* Sahha-IOS */,
+				AA8A45E42C64A531000995CF /* Sahha-IOSTests */,
+				AA8A45EE2C64A531000995CF /* Sahha-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8A45D32C64A530000995CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A45E02C64A531000995CF /* Preview Assets.xcassets in Resources */,
+				AA8A45DD2C64A531000995CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45E32C64A531000995CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45ED2C64A531000995CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8A45D12C64A530000995CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A45DB2C64A530000995CF /* ContentView.swift in Sources */,
+				AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45E12C64A531000995CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A45EA2C64A531000995CF /* Sahha_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8A45EB2C64A531000995CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8A45F62C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift in Sources */,
+				AA8A45F42C64A531000995CF /* Sahha_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA8A45E72C64A531000995CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8A45D42C64A530000995CF /* Sahha-IOS */;
+			targetProxy = AA8A45E62C64A531000995CF /* PBXContainerItemProxy */;
+		};
+		AA8A45F12C64A531000995CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA8A45D42C64A530000995CF /* Sahha-IOS */;
+			targetProxy = AA8A45F02C64A531000995CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA8A45F72C64A531000995CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA8A45F82C64A531000995CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8A45FA2C64A531000995CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sahha-IOS/Preview Content\"";
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8A45FB2C64A531000995CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sahha-IOS/Preview Content\"";
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA8A45FD2C64A531000995CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sahha-IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sahha-IOS";
+			};
+			name = Debug;
+		};
+		AA8A45FE2C64A531000995CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sahha-IOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sahha-IOS";
+			};
+			name = Release;
+		};
+		AA8A46002C64A531000995CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sahha-IOS";
+			};
+			name = Debug;
+		};
+		AA8A46012C64A531000995CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sahha-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8A45D02C64A530000995CF /* Build configuration list for PBXProject "Sahha-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A45F72C64A531000995CF /* Debug */,
+				AA8A45F82C64A531000995CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8A45F92C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A45FA2C64A531000995CF /* Debug */,
+				AA8A45FB2C64A531000995CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8A45FC2C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A45FD2C64A531000995CF /* Debug */,
+				AA8A45FE2C64A531000995CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8A45FF2C64A531000995CF /* Build configuration list for PBXNativeTarget "Sahha-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8A46002C64A531000995CF /* Debug */,
+				AA8A46012C64A531000995CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA8A45CD2C64A530000995CF /* Project object */;
+}
