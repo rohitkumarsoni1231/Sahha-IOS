@@ -8,8 +8,8 @@
 import Foundation
 
 class UsersListDataSource {
+    
     func getUsers() async throws -> [UserModel] {
-//        users
         guard let url = URL(string: "https://api.github.com/users") else {
             throw NetworkError.badURL
         }

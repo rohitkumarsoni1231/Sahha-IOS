@@ -17,7 +17,9 @@ struct HomeView: View {
             if isAuthenticated {
                 TabView {
                     UsersListView()
-                        .tabItem {   Label("Users", systemImage: "list.bullet") }
+                        .tabItem {  
+                            Label("Users", systemImage: "list.bullet")
+                        }
                     
                     ScoresInsightsView()
                         .tabItem {

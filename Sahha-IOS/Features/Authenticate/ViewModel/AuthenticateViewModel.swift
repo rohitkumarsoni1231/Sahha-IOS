@@ -15,30 +15,22 @@ class AuthenticateViewModel: ObservableObject {
     @Published var isError = false
     @Published var errorMessage: String?
     
-    func authenticate(externalID: String) {
-        Sahha.authenticate(appId: "G7CYZB7EN799Z4ADAT4R07OWXGOVDPGQ", appSecret: "HoMQjftuwV1sYZdfjJmHRkFbQndAuKeX+aV3YPpFS8w=", externalId: externalID) { error, success in
-            if let error = error {
-                print("Error: \(error)")
-                self.errorMessage = error
-                self.isError = true
-            } else if success {
-                self.isAuthenticated = success
-                print("You are now authenticated")
-                if let token = Sahha.profileToken {
-                    print("User has a token \(token)")
-                } else {
-                    print("User does not have a token")
+    func authenticate(appId: String, appSecret: String, externalId: String) {
+        Sahha.authenticate(appId: appId, appSecret: appSecret, externalId: externalId) { [weak self] error, success in
+            DispatchQueue.main.async {
+                guard let self = self else { return }
+                if let error = error {
+                    self.errorMessage = error
+                    self.isError = true
+                } else if success {
+                    self.isAuthenticated = true
+                    if let token = Sahha.profileToken {
+                        KeychainHelper().saveCredentials(appId: appId, appSecret: appSecret, externalId: externalId, profileToken: token)
+                        print("User has a token: \(token)")
+                    } else {
+                        print("User does not have a token")
+                    }
                 }
-            }
-        }
-    }
-    
-    func deAuthenticate() {
-        Sahha.deauthenticate { error, success in
-            if let error = error {
-                print(error)
-            } else if success {
-                print("You are now deauthenticated")
             }
         }
     }

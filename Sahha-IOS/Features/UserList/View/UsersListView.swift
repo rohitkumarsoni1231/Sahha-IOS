@@ -17,7 +17,6 @@ struct UsersListView: View {
                 List {
                     ForEach(userListViewModel.userModel) { user in
                         NavigationLink {
-                            
                         } label: {
                             UserRow(userModel: user)
                         }
@@ -27,6 +26,13 @@ struct UsersListView: View {
                 userListViewModel.fetchUsers()
             }
             .navigationTitle("Users List")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Reset") {
+                        userListViewModel.deAuthenticate()
+                    }
+                }
+            }
             .alert(isPresented: $userListViewModel.isError) {
                 Alert(
                     title: Text("Authentication Error"),

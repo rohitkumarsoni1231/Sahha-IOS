@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Sahha
 
 class UsersListViewModel : ObservableObject {
     
@@ -39,6 +40,18 @@ class UsersListViewModel : ObservableObject {
             } catch {
                 self.isError = true
                 self.errorMessage = "Error: \(error.localizedDescription)"
+            }
+        }
+    }
+    
+    func deAuthenticate() {
+        Sahha.deauthenticate { error, success in
+            DispatchQueue.main.async {
+                if let error = error {
+                    print("Deauthentication error: \(error)")
+                } else if success {
+                    print("You are now deauthenticated")
+                }
             }
         }
     }

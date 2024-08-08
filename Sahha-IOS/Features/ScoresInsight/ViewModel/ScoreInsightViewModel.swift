@@ -11,16 +11,19 @@ import Sahha
 class ScoreInsightViewModel: ObservableObject {
     
     @Published var score : String?
+    @Published var isError = false
+    @Published var errorMessage: String?
     
     func getScore24Hours() {
         Sahha.analyze { error, json in
             if let error = error {
-                print(error)
+                self.errorMessage = error
+                self.isError = true
             } else if let json = json {
                 DispatchQueue.main.async {
                     self.score = json
+                    print(json)
                 }
-                print("JSON for 24 Hours: \(json)")
             }
         }
     }
@@ -30,13 +33,13 @@ class ScoreInsightViewModel: ObservableObject {
         let sevenDaysAgo = Calendar.current.date(byAdding: .day, value: -7, to: today) ?? Date()
         Sahha.analyze(dates: (startDate: sevenDaysAgo, endDate: today)) { error, json in
             if let error = error {
-                print(error)
+                self.errorMessage = error
+                self.isError = true
             } else if let json = json {
                 DispatchQueue.main.async {
                     self.score = json
+                    print(json)
                 }
-               
-                print("JSON for 7 Days: \(json)")
             }
         }
     }
