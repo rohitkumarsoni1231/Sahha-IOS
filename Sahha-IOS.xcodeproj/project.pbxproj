@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */; };
-		AA8A45DB2C64A530000995CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45DA2C64A530000995CF /* ContentView.swift */; };
 		AA8A45DD2C64A531000995CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DC2C64A531000995CF /* Assets.xcassets */; };
 		AA8A45E02C64A531000995CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */; };
 		AA8A45EA2C64A531000995CF /* Sahha_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45E92C64A531000995CF /* Sahha_IOSTests.swift */; };
 		AA8A45F42C64A531000995CF /* Sahha_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45F32C64A531000995CF /* Sahha_IOSUITests.swift */; };
 		AA8A45F62C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45F52C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift */; };
+		AA8F0DC62C64B0B0006D5876 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DC52C64B0B0006D5876 /* APIManager.swift */; };
+		AAF9C1802C64A817006479AD /* Sahha in Frameworks */ = {isa = PBXBuildFile; productRef = AAF9C17F2C64A817006479AD /* Sahha */; };
+		AAF9C18C2C64A8F2006479AD /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C18B2C64A8F2006479AD /* AuthenticateView.swift */; };
+		AAF9C1912C64AA18006479AD /* AuthenticateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1902C64AA18006479AD /* AuthenticateViewModel.swift */; };
+		AAF9C1942C64AA47006479AD /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1932C64AA47006479AD /* CustomTextField.swift */; };
+		AAF9C1972C64AA72006479AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1962C64AA72006479AD /* HomeView.swift */; };
+		AAF9C19B2C64AAA2006479AD /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C19A2C64AAA2006479AD /* UsersListViewModel.swift */; };
+		AAF9C19D2C64AAC1006479AD /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C19C2C64AAC1006479AD /* UsersListView.swift */; };
+		AAF9C19F2C64AACF006479AD /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C19E2C64AACF006479AD /* UserRow.swift */; };
+		AAF9C1A22C64AAF5006479AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1A12C64AAF5006479AD /* UserModel.swift */; };
+		AAF9C1A62C64AB40006479AD /* ScoresInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1A52C64AB40006479AD /* ScoresInsightsView.swift */; };
+		AAF9C1A82C64AB5F006479AD /* ScoreInsightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1A72C64AB5F006479AD /* ScoreInsightViewModel.swift */; };
+		AAF9C1AD2C64ABE5006479AD /* UsersListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1AC2C64ABE5006479AD /* UsersListRepository.swift */; };
+		AAF9C1AF2C64ABF4006479AD /* UsersListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1AE2C64ABF4006479AD /* UsersListDataSource.swift */; };
+		AAF9C1B22C64AC16006479AD /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1B12C64AC16006479AD /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,6 @@
 /* Begin PBXFileReference section */
 		AA8A45D52C64A530000995CF /* Sahha-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sahha-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSApp.swift; sourceTree = "<group>"; };
-		AA8A45DA2C64A530000995CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA8A45DC2C64A531000995CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA8A45E52C64A531000995CF /* Sahha-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sahha-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,21 @@
 		AA8A45EF2C64A531000995CF /* Sahha-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sahha-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A45F32C64A531000995CF /* Sahha_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSUITests.swift; sourceTree = "<group>"; };
 		AA8A45F52C64A531000995CF /* Sahha_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA8F0DC52C64B0B0006D5876 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AAF9C17D2C64A74E006479AD /* Sahha-IOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sahha-IOS.entitlements"; sourceTree = "<group>"; };
+		AAF9C18B2C64A8F2006479AD /* AuthenticateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
+		AAF9C1902C64AA18006479AD /* AuthenticateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewModel.swift; sourceTree = "<group>"; };
+		AAF9C1932C64AA47006479AD /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		AAF9C1962C64AA72006479AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AAF9C19A2C64AAA2006479AD /* UsersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewModel.swift; sourceTree = "<group>"; };
+		AAF9C19C2C64AAC1006479AD /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
+		AAF9C19E2C64AACF006479AD /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		AAF9C1A12C64AAF5006479AD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AAF9C1A52C64AB40006479AD /* ScoresInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresInsightsView.swift; sourceTree = "<group>"; };
+		AAF9C1A72C64AB5F006479AD /* ScoreInsightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreInsightViewModel.swift; sourceTree = "<group>"; };
+		AAF9C1AC2C64ABE5006479AD /* UsersListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListRepository.swift; sourceTree = "<group>"; };
+		AAF9C1AE2C64ABF4006479AD /* UsersListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListDataSource.swift; sourceTree = "<group>"; };
+		AAF9C1B12C64AC16006479AD /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF9C1802C64A817006479AD /* Sahha in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +123,11 @@
 		AA8A45D72C64A530000995CF /* Sahha-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */,
-				AA8A45DA2C64A530000995CF /* ContentView.swift */,
-				AA8A45DC2C64A531000995CF /* Assets.xcassets */,
+				AAF9C17D2C64A74E006479AD /* Sahha-IOS.entitlements */,
+				AAF9C1812C64A856006479AD /* Application */,
+				AAF9C1822C64A866006479AD /* Resources */,
+				AAF9C1832C64A878006479AD /* Helper */,
+				AAF9C1862C64A89C006479AD /* Features */,
 				AA8A45DE2C64A531000995CF /* Preview Content */,
 			);
 			path = "Sahha-IOS";
@@ -127,6 +158,202 @@
 			path = "Sahha-IOSUITests";
 			sourceTree = "<group>";
 		};
+		AAF9C1812C64A856006479AD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AAF9C1822C64A866006479AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A45DC2C64A531000995CF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAF9C1832C64A878006479AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1B32C64AC28006479AD /* Network */,
+				AAF9C1B02C64AC09006479AD /* Enum */,
+				AAF9C1922C64AA3E006479AD /* UI */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AAF9C1862C64A89C006479AD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C18A2C64A8DB006479AD /* UserList */,
+				AAF9C1892C64A8C7006479AD /* ScoresInsight */,
+				AAF9C1882C64A8C1006479AD /* Home */,
+				AAF9C1872C64A8B7006479AD /* Authenticate */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AAF9C1872C64A8B7006479AD /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C18F2C64A9A1006479AD /* Model */,
+				AAF9C18E2C64A91E006479AD /* ViewModel */,
+				AAF9C18D2C64A918006479AD /* View */,
+			);
+			path = Authenticate;
+			sourceTree = "<group>";
+		};
+		AAF9C1882C64A8C1006479AD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1952C64AA6B006479AD /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AAF9C1892C64A8C7006479AD /* ScoresInsight */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A42C64AB37006479AD /* ViewModel */,
+				AAF9C1A32C64AB31006479AD /* View */,
+			);
+			path = ScoresInsight;
+			sourceTree = "<group>";
+		};
+		AAF9C18A2C64A8DB006479AD /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A92C64ABCE006479AD /* Data */,
+				AAF9C1A02C64AAEB006479AD /* Model */,
+				AAF9C1992C64AA9B006479AD /* View */,
+				AAF9C1982C64AA95006479AD /* ViewModel */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		AAF9C18D2C64A918006479AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C18B2C64A8F2006479AD /* AuthenticateView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF9C18E2C64A91E006479AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1902C64AA18006479AD /* AuthenticateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAF9C18F2C64A9A1006479AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAF9C1922C64AA3E006479AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1932C64AA47006479AD /* CustomTextField.swift */,
+				AAF9C19E2C64AACF006479AD /* UserRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AAF9C1952C64AA6B006479AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1962C64AA72006479AD /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF9C1982C64AA95006479AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C19A2C64AAA2006479AD /* UsersListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAF9C1992C64AA9B006479AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C19C2C64AAC1006479AD /* UsersListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF9C1A02C64AAEB006479AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A12C64AAF5006479AD /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAF9C1A32C64AB31006479AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A52C64AB40006479AD /* ScoresInsightsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF9C1A42C64AB37006479AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A72C64AB5F006479AD /* ScoreInsightViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAF9C1A92C64ABCE006479AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1AB2C64ABDA006479AD /* DataSource */,
+				AAF9C1AA2C64ABD3006479AD /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AAF9C1AA2C64ABD3006479AD /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1AC2C64ABE5006479AD /* UsersListRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		AAF9C1AB2C64ABDA006479AD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1AE2C64ABF4006479AD /* UsersListDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		AAF9C1B02C64AC09006479AD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1B12C64AC16006479AD /* Enum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		AAF9C1B32C64AC28006479AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA8F0DC52C64B0B0006D5876 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +370,9 @@
 			dependencies = (
 			);
 			name = "Sahha-IOS";
+			packageProductDependencies = (
+				AAF9C17F2C64A817006479AD /* Sahha */,
+			);
 			productName = "Sahha-IOS";
 			productReference = AA8A45D52C64A530000995CF /* Sahha-IOS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +445,9 @@
 				Base,
 			);
 			mainGroup = AA8A45CC2C64A530000995CF;
+			packageReferences = (
+				AAF9C17E2C64A817006479AD /* XCRemoteSwiftPackageReference "sahha-swift" */,
+			);
 			productRefGroup = AA8A45D62C64A530000995CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +490,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8A45DB2C64A530000995CF /* ContentView.swift in Sources */,
+				AA8F0DC62C64B0B0006D5876 /* APIManager.swift in Sources */,
+				AAF9C1AD2C64ABE5006479AD /* UsersListRepository.swift in Sources */,
+				AAF9C1912C64AA18006479AD /* AuthenticateViewModel.swift in Sources */,
 				AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */,
+				AAF9C1972C64AA72006479AD /* HomeView.swift in Sources */,
+				AAF9C19B2C64AAA2006479AD /* UsersListViewModel.swift in Sources */,
+				AAF9C18C2C64A8F2006479AD /* AuthenticateView.swift in Sources */,
+				AAF9C19F2C64AACF006479AD /* UserRow.swift in Sources */,
+				AAF9C1B22C64AC16006479AD /* Enum.swift in Sources */,
+				AAF9C1942C64AA47006479AD /* CustomTextField.swift in Sources */,
+				AAF9C1AF2C64ABF4006479AD /* UsersListDataSource.swift in Sources */,
+				AAF9C1A82C64AB5F006479AD /* ScoreInsightViewModel.swift in Sources */,
+				AAF9C1A22C64AAF5006479AD /* UserModel.swift in Sources */,
+				AAF9C1A62C64AB40006479AD /* ScoresInsightsView.swift in Sources */,
+				AAF9C19D2C64AAC1006479AD /* UsersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,23 +665,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sahha-IOS/Sahha-IOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sahha-IOS/Preview Content\"";
-				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				DEVELOPMENT_TEAM = N7MU74G8Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Kahunas Sahha would like access to your health activity for analysis.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kahunas.Sahha-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,23 +697,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sahha-IOS/Sahha-IOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Sahha-IOS/Preview Content\"";
-				DEVELOPMENT_TEAM = T8M4FG6SBU;
+				DEVELOPMENT_TEAM = N7MU74G8Z9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Kahunas Sahha would like access to your health activity for analysis.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tech.Sahha-IOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kahunas.Sahha-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,6 +840,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAF9C17E2C64A817006479AD /* XCRemoteSwiftPackageReference "sahha-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sahha-ai/sahha-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAF9C17F2C64A817006479AD /* Sahha */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAF9C17E2C64A817006479AD /* XCRemoteSwiftPackageReference "sahha-swift" */;
+			productName = Sahha;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA8A45CD2C64A530000995CF /* Project object */;
 }
