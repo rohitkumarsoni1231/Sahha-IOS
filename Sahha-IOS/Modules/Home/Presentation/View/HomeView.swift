@@ -10,20 +10,24 @@ import SwiftUI
 struct HomeView: View {
     @ObservedObject private var authenticateViewModel = AuthenticateViewModel()
     @State private var isAuthenticated = false
-    @ObservedObject private var usersListViewModel = UsersListViewModel()
     
     var body: some View {
         NavigationView {
             if isAuthenticated {
                 TabView {
                     UsersListView()
-                        .tabItem {  
+                        .tabItem {
                             Label("Users", systemImage: "list.bullet")
                         }
                     
                     ScoresInsightsView()
                         .tabItem {
                             Label("Scores", systemImage: "chart.bar")
+                        }
+                    
+                    UserProfileView()
+                        .tabItem {
+                            Label("Profile", systemImage: "person.fill")
                         }
                 }
             } else {

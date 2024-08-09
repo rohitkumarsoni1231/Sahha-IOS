@@ -12,18 +12,18 @@ class UsersListViewModel : ObservableObject {
     
     @Published var userModel = [UserModel]()
     
-    private var repository : UsersListRepository
+    private var userListUseCase : UserListUseCase
     @Published var isError = false
     @Published var errorMessage : String?
     
-    init() {
-        self.repository = UsersListRepository()
+    init(userListUseCase: UserListUseCase = UserListUseCase(repository: UsersListRepository())) {
+        self.userListUseCase = userListUseCase
     }
     
     @MainActor func fetchUsers() {
         Task {
             do {
-                let users = try await repository.getUsers()
+                let users = try await userListUseCase.getUsers()
                 self.userModel = users
             } catch NetworkError.badURL {
                 self.isError = true

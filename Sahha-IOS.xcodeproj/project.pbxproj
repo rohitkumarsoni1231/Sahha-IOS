@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5EDA0E2C66748A00510C2E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EDA0D2C66748A00510C2E /* UserProfileView.swift */; };
+		AA5EDA102C66749400510C2E /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EDA0F2C66749400510C2E /* UserProfileViewModel.swift */; };
 		AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */; };
 		AA8A45DD2C64A531000995CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DC2C64A531000995CF /* Assets.xcassets */; };
 		AA8A45E02C64A531000995CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A45DF2C64A531000995CF /* Preview Assets.xcassets */; };
@@ -15,7 +17,14 @@
 		AA8F0DC92C64D28B006D5876 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DC82C64D28B006D5876 /* KeychainHelper.swift */; };
 		AA8F0DCB2C64D684006D5876 /* CustomSecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DCA2C64D684006D5876 /* CustomSecureTextField.swift */; };
 		AA8F0DD42C64DEE5006D5876 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DD32C64DEE5006D5876 /* ChartView.swift */; };
-		AA8F0DD62C64E2E3006D5876 /* AuthenticationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DD52C64E2E3006D5876 /* AuthenticationTest.swift */; };
+		AA8F0DFE2C664EAA006D5876 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DFD2C664EAA006D5876 /* UserInfoView.swift */; };
+		AA8F0E002C664EE7006D5876 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0DFF2C664EE7006D5876 /* NoDataView.swift */; };
+		AA8F0E022C664F02006D5876 /* UserInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0E012C664F02006D5876 /* UserInfoRow.swift */; };
+		AA8F0E122C6662D6006D5876 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8F0E112C6662D6006D5876 /* UserTests.swift */; };
+		AA8F0E142C666458006D5876 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8F0E132C666458006D5876 /* Users.json */; };
+		AAE469822C666C22003E2A3B /* UserListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE469812C666C22003E2A3B /* UserListUseCase.swift */; };
+		AAE469842C666FBE003E2A3B /* SahhaMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE469832C666FBE003E2A3B /* SahhaMock.swift */; };
+		AAE469862C66704D003E2A3B /* AuthenticateViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE469852C66704D003E2A3B /* AuthenticateViewModelTests.swift */; };
 		AAF9C1802C64A817006479AD /* Sahha in Frameworks */ = {isa = PBXBuildFile; productRef = AAF9C17F2C64A817006479AD /* Sahha */; };
 		AAF9C18C2C64A8F2006479AD /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C18B2C64A8F2006479AD /* AuthenticateView.swift */; };
 		AAF9C1912C64AA18006479AD /* AuthenticateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9C1902C64AA18006479AD /* AuthenticateViewModel.swift */; };
@@ -43,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA5EDA0D2C66748A00510C2E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		AA5EDA0F2C66749400510C2E /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
 		AA8A45D52C64A530000995CF /* Sahha-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sahha-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8A45D82C64A530000995CF /* Sahha_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sahha_IOSApp.swift; sourceTree = "<group>"; };
 		AA8A45DC2C64A531000995CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +64,14 @@
 		AA8F0DC82C64D28B006D5876 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		AA8F0DCA2C64D684006D5876 /* CustomSecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureTextField.swift; sourceTree = "<group>"; };
 		AA8F0DD32C64DEE5006D5876 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		AA8F0DD52C64E2E3006D5876 /* AuthenticationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTest.swift; sourceTree = "<group>"; };
+		AA8F0DFD2C664EAA006D5876 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		AA8F0DFF2C664EE7006D5876 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		AA8F0E012C664F02006D5876 /* UserInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoRow.swift; sourceTree = "<group>"; };
+		AA8F0E112C6662D6006D5876 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		AA8F0E132C666458006D5876 /* Users.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		AAE469812C666C22003E2A3B /* UserListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUseCase.swift; sourceTree = "<group>"; };
+		AAE469832C666FBE003E2A3B /* SahhaMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahhaMock.swift; sourceTree = "<group>"; };
+		AAE469852C66704D003E2A3B /* AuthenticateViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewModelTests.swift; sourceTree = "<group>"; };
 		AAF9C17D2C64A74E006479AD /* Sahha-IOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sahha-IOS.entitlements"; sourceTree = "<group>"; };
 		AAF9C18B2C64A8F2006479AD /* AuthenticateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
 		AAF9C1902C64AA18006479AD /* AuthenticateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewModel.swift; sourceTree = "<group>"; };
@@ -89,6 +107,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA5EDA092C66746C00510C2E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AA5EDA0A2C66747300510C2E /* Presentation */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AA5EDA0A2C66747300510C2E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA5EDA0C2C66747E00510C2E /* View */,
+				AA5EDA0B2C66747900510C2E /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AA5EDA0B2C66747900510C2E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA5EDA0F2C66749400510C2E /* UserProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA5EDA0C2C66747E00510C2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA5EDA0D2C66748A00510C2E /* UserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AA8A45CC2C64A530000995CF = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +165,8 @@
 				AAF9C1812C64A856006479AD /* Application */,
 				AAF9C1822C64A866006479AD /* Resources */,
 				AAF9C1832C64A878006479AD /* Helper */,
-				AAF9C1862C64A89C006479AD /* Features */,
+				AA8F0E032C66514C006D5876 /* Domain */,
+				AAF9C1862C64A89C006479AD /* Modules */,
 				AA8A45DE2C64A531000995CF /* Preview Content */,
 			);
 			path = "Sahha-IOS";
@@ -132,7 +184,9 @@
 			isa = PBXGroup;
 			children = (
 				AA8A45E92C64A531000995CF /* Sahha_IOSTests.swift */,
-				AA8F0DD52C64E2E3006D5876 /* AuthenticationTest.swift */,
+				AA8F0E112C6662D6006D5876 /* UserTests.swift */,
+				AAE469832C666FBE003E2A3B /* SahhaMock.swift */,
+				AAE469852C66704D003E2A3B /* AuthenticateViewModelTests.swift */,
 			);
 			path = "Sahha-IOSTests";
 			sourceTree = "<group>";
@@ -143,6 +197,58 @@
 				AA8F0DC82C64D28B006D5876 /* KeychainHelper.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA8F0E032C66514C006D5876 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AAE469802C666BE3003E2A3B /* UseCase */,
+				AAF9C1A02C64AAEB006479AD /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AAE469802C666BE3003E2A3B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				AAE469812C666C22003E2A3B /* UserListUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		AAE469882C66728C003E2A3B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1992C64AA9B006479AD /* View */,
+				AAF9C1982C64AA95006479AD /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AAE469892C6672A6003E2A3B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1A42C64AB37006479AD /* ViewModel */,
+				AAF9C1A32C64AB31006479AD /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AAE4698A2C6672B2003E2A3B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C1952C64AA6B006479AD /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		AAE4698B2C6672C5003E2A3B /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9C18E2C64A91E006479AD /* ViewModel */,
+				AAF9C18D2C64A918006479AD /* View */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		AAF9C1812C64A856006479AD /* Application */ = {
@@ -157,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				AA8A45DC2C64A531000995CF /* Assets.xcassets */,
+				AA8F0E132C666458006D5876 /* Users.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -172,22 +279,22 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		AAF9C1862C64A89C006479AD /* Features */ = {
+		AAF9C1862C64A89C006479AD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AA5EDA092C66746C00510C2E /* Profile */,
 				AAF9C18A2C64A8DB006479AD /* UserList */,
 				AAF9C1892C64A8C7006479AD /* ScoresInsight */,
 				AAF9C1882C64A8C1006479AD /* Home */,
 				AAF9C1872C64A8B7006479AD /* Authenticate */,
 			);
-			path = Features;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		AAF9C1872C64A8B7006479AD /* Authenticate */ = {
 			isa = PBXGroup;
 			children = (
-				AAF9C18E2C64A91E006479AD /* ViewModel */,
-				AAF9C18D2C64A918006479AD /* View */,
+				AAE4698B2C6672C5003E2A3B /* Presentation */,
 			);
 			path = Authenticate;
 			sourceTree = "<group>";
@@ -195,7 +302,7 @@
 		AAF9C1882C64A8C1006479AD /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AAF9C1952C64AA6B006479AD /* View */,
+				AAE4698A2C6672B2003E2A3B /* Presentation */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -203,8 +310,7 @@
 		AAF9C1892C64A8C7006479AD /* ScoresInsight */ = {
 			isa = PBXGroup;
 			children = (
-				AAF9C1A42C64AB37006479AD /* ViewModel */,
-				AAF9C1A32C64AB31006479AD /* View */,
+				AAE469892C6672A6003E2A3B /* Presentation */,
 			);
 			path = ScoresInsight;
 			sourceTree = "<group>";
@@ -212,10 +318,8 @@
 		AAF9C18A2C64A8DB006479AD /* UserList */ = {
 			isa = PBXGroup;
 			children = (
+				AAE469882C66728C003E2A3B /* Presentation */,
 				AAF9C1A92C64ABCE006479AD /* Data */,
-				AAF9C1A02C64AAEB006479AD /* Model */,
-				AAF9C1992C64AA9B006479AD /* View */,
-				AAF9C1982C64AA95006479AD /* ViewModel */,
 			);
 			path = UserList;
 			sourceTree = "<group>";
@@ -243,6 +347,9 @@
 				AAF9C19E2C64AACF006479AD /* UserRow.swift */,
 				AA8F0DCA2C64D684006D5876 /* CustomSecureTextField.swift */,
 				AA8F0DD32C64DEE5006D5876 /* ChartView.swift */,
+				AA8F0DFD2C664EAA006D5876 /* UserInfoView.swift */,
+				AA8F0DFF2C664EE7006D5876 /* NoDataView.swift */,
+				AA8F0E012C664F02006D5876 /* UserInfoRow.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -423,6 +530,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8F0E142C666458006D5876 /* Users.json in Resources */,
 				AA8A45E02C64A531000995CF /* Preview Assets.xcassets in Resources */,
 				AA8A45DD2C64A531000995CF /* Assets.xcassets in Resources */,
 			);
@@ -442,20 +550,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8F0E022C664F02006D5876 /* UserInfoRow.swift in Sources */,
 				AA8F0DC62C64B0B0006D5876 /* APIManager.swift in Sources */,
 				AAF9C1AD2C64ABE5006479AD /* UsersListRepository.swift in Sources */,
 				AA8F0DD42C64DEE5006D5876 /* ChartView.swift in Sources */,
+				AAE469822C666C22003E2A3B /* UserListUseCase.swift in Sources */,
 				AAF9C1912C64AA18006479AD /* AuthenticateViewModel.swift in Sources */,
 				AA8A45D92C64A530000995CF /* Sahha_IOSApp.swift in Sources */,
+				AA8F0E002C664EE7006D5876 /* NoDataView.swift in Sources */,
 				AAF9C1972C64AA72006479AD /* HomeView.swift in Sources */,
 				AAF9C19B2C64AAA2006479AD /* UsersListViewModel.swift in Sources */,
 				AAF9C18C2C64A8F2006479AD /* AuthenticateView.swift in Sources */,
 				AAF9C19F2C64AACF006479AD /* UserRow.swift in Sources */,
 				AAF9C1B22C64AC16006479AD /* Enum.swift in Sources */,
 				AAF9C1942C64AA47006479AD /* CustomTextField.swift in Sources */,
+				AA5EDA0E2C66748A00510C2E /* UserProfileView.swift in Sources */,
 				AAF9C1AF2C64ABF4006479AD /* UsersListDataSource.swift in Sources */,
 				AA8F0DC92C64D28B006D5876 /* KeychainHelper.swift in Sources */,
+				AA5EDA102C66749400510C2E /* UserProfileViewModel.swift in Sources */,
 				AA8F0DCB2C64D684006D5876 /* CustomSecureTextField.swift in Sources */,
+				AA8F0DFE2C664EAA006D5876 /* UserInfoView.swift in Sources */,
 				AAF9C1A82C64AB5F006479AD /* ScoreInsightViewModel.swift in Sources */,
 				AAF9C1A22C64AAF5006479AD /* UserModel.swift in Sources */,
 				AAF9C1A62C64AB40006479AD /* ScoresInsightsView.swift in Sources */,
@@ -467,8 +581,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE469862C66704D003E2A3B /* AuthenticateViewModelTests.swift in Sources */,
+				AA8F0E122C6662D6006D5876 /* UserTests.swift in Sources */,
+				AAE469842C666FBE003E2A3B /* SahhaMock.swift in Sources */,
 				AA8A45EA2C64A531000995CF /* Sahha_IOSTests.swift in Sources */,
-				AA8F0DD62C64E2E3006D5876 /* AuthenticationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

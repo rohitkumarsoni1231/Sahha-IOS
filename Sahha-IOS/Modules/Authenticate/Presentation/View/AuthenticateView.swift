@@ -10,9 +10,9 @@ import Security
 
 struct AuthenticateView: View {
     
-    @State private var externalID = ""
-    @State private var appId = ""
-    @State private var appSecret = ""
+    @State private var appId : String = ""
+    @State private var appSecret : String = ""
+    @State private var externalID : String = ""
     @ObservedObject var authenticateViewModel: AuthenticateViewModel
     
     private var isExternalIDEmpty: Bool {
@@ -50,20 +50,24 @@ struct AuthenticateView: View {
                 CustomSecureTextField(ourText: $externalID, placeholder: Text("Enter External ID").font(.subheadline))
                     .padding()
                     .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.gray))
-            
-                Button("Authenticate") {
-                    if !areCredentialsEmpty {
-                        authenticateViewModel.authenticate(appId: appId, appSecret: appSecret, externalId: externalID)
+                
+                if authenticateViewModel.isLoading {
+                    ProgressView()
+                        .padding(.top, 36)
+                } else {
+                    Button("Authenticate") {
+                        if !areCredentialsEmpty {
+                            authenticateViewModel.authenticate(appId: appId, appSecret: appSecret, externalId: externalID)
+                        }
                     }
-                   
+                    .disabled(isExternalIDEmpty)
+                    .frame(maxWidth: .infinity, minHeight: 52)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .background(areCredentialsEmpty ? Color.gray : .app)
+                    .cornerRadius(8.0)
+                    .padding(.top, 36)
                 }
-                .disabled(isExternalIDEmpty)
-                .frame(maxWidth: .infinity, minHeight: 52)
-                .foregroundColor(.white)
-                .font(.headline)
-                .background(areCredentialsEmpty ? Color.gray : .app)
-                .cornerRadius(8.0)
-                .padding(.top, 36)
                 
             }
             .padding()
