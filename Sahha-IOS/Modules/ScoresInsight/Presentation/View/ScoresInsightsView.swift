@@ -69,6 +69,9 @@ struct ScoresInsightsView: View {
                 dismissButton: .default(Text("OK"))
             )
         }
+        .onAppear() {
+            viewModel.getAnalysisForToday()
+        }
     }
 }
 
